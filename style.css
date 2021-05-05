@@ -1,9 +1,51 @@
-.wrapper {
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto repeat(3, 1fr);
+body, html {
+    font-family:Roboto;
+    margin:0;
+    padding:0;
+    height:100%;
 }
 
-header {
-    background-color: grey;
+body {
+    display: grid;
+    grid-template: 75px 1fr  auto auto 1fr 70px / 100%;
+}
+
+header, footer {
+    font-size: 15px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    /* background-color: lightgray; */
+}
+
+.linkblock {
+    display:flex;
+    align-items:center;
+}
+
+.main {
+    justify-self: center;
+}
+
+#logo {
+    align-self: end;
+    margin: 25px;
+}
+
+a {
+    text-decoration-line: none;
+    color: darkslategrey;
+    margin: 0px 10px;
+    /* background-color:blueviolet;*/
+}
+
+#signin {
+    margin: 0px 10px;
+    padding: 9px 23px;
+    border-radius: 5px;;
+    background-color: dodgerblue;
+    /*cornflowerblue;*/
+    font-size: inherit;
+    color: white;
 }
