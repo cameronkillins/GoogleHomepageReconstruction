@@ -28,11 +28,6 @@ header, footer {
     justify-self: center;
 }
 
-#logo {
-    align-self: end;
-    margin: 25px;
-}
-
 a {
     text-decoration-line: none;
     color: darkslategrey;
@@ -40,12 +35,21 @@ a {
     /* background-color:blueviolet;*/
 }
 
+#box{
+    height:16px;
+}
+
 #signin {
     margin: 0px 10px;
     padding: 9px 23px;
-    border-radius: 5px;;
+    border-radius: 5px;
     background-color: dodgerblue;
     /*cornflowerblue;*/
     font-size: inherit;
     color: white;
+}
+
+#logo {
+    align-self: end;
+    margin: 25px;
 }

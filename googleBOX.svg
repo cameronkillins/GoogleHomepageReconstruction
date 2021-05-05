@@ -1,0 +1,18 @@
+<svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_2" cy="20" cx="20" fill="#000000"/>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_3" cy="20" cx="20" fill="#000000"/>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_4" cy="20" cx="80" fill="#000000"/>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_5" cy="20" cx="140" fill="#000000"/>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_6" cy="80" cx="20" fill="#000000"/>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_7" cy="80" cx="20" fill="#000000"/>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_8" cy="80" cx="80" fill="#000000"/>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_9" cy="80" cx="140" fill="#000000"/>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_10" cy="140" cx="20" fill="#000000"/>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_11" cy="140" cx="20" fill="#000000"/>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_12" cy="140" cx="80" fill="#000000"/>
+  <ellipse stroke="#000000" ry="20" rx="20" id="svg_13" cy="140" cx="140" fill="#000000"/>
+ </g>
+</svg>
