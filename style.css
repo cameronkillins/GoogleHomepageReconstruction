@@ -7,7 +7,7 @@ body, html {
 
 body {
     display: grid;
-    grid-template: 75px 1fr  auto auto 1fr 70px / 100%;
+    grid-template: 75px 2fr  auto auto 3fr 70px / 100%;
 }
 
 header, footer {
@@ -28,7 +28,11 @@ header, footer {
     justify-self: center;
 }
 
-a {
+a{
+    text-decoration-line: none;
+}
+
+header a, footer a {
     text-decoration-line: none;
     color: darkslategrey;
     margin: 0px 10px;
@@ -43,13 +47,37 @@ a {
     margin: 0px 10px;
     padding: 9px 23px;
     border-radius: 5px;
-    background-color: dodgerblue;
+    background-color: rgb(1, 114, 226);
     /*cornflowerblue;*/
     font-size: inherit;
     color: white;
 }
 
+#signin:hover {
+    background-color:dodgerblue;
+    box-shadow: 0 0 5px 3px rgba(30, 143, 255, 0.158);
+}
+
 #logo {
     align-self: end;
-    margin: 25px;
+    margin: 10px;
+}
+
+#search {
+    height:44px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: lightslategray;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+#searchbox {
+    padding:0px;
+    border-width: 0px;
+    height: 34px;
+    width: 582px;
+    max-width: 90vw;
+    border-color: rgba(255, 255, 255, 0);
 }
