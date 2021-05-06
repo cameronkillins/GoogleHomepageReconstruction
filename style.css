@@ -7,7 +7,7 @@ body, html {
 
 body {
     display: grid;
-    grid-template: 75px 2fr  auto auto 3fr 70px / 100%;
+    grid-template: 60px 2fr  auto auto 3fr 70px / 100%;
 }
 
 header, footer {
@@ -41,13 +41,19 @@ header a, footer a {
 
 #box{
     height:16px;
+    padding:14px;
+    border-radius: 40px;
+}
+
+#box:hover{
+    background-color: rgb(240, 240, 240);
 }
 
 #signin {
     margin: 0px 10px;
     padding: 9px 23px;
     border-radius: 5px;
-    background-color: rgb(1, 114, 226);
+    background-color: rgb(26, 137, 248);
     /*cornflowerblue;*/
     font-size: inherit;
     color: white;
@@ -55,7 +61,7 @@ header a, footer a {
 
 #signin:hover {
     background-color:dodgerblue;
-    box-shadow: 0 0 5px 3px rgba(30, 143, 255, 0.158);
+    box-shadow: 0 0 3px 2px rgba(30, 143, 255, 0.158);
 }
 
 #logo {
@@ -65,19 +71,45 @@ header a, footer a {
 
 #search {
     height:44px;
+    margin: 10px;
     display: flex;
     align-items: center;
     border-style: solid;
     border-color: lightslategray;
     border-width: 1px;
-    border-radius: 20px;
+    border-radius: 30px;
+    max-width: 90vw;
 }
 
 #searchbox {
     padding:0px;
     border-width: 0px;
     height: 34px;
-    width: 582px;
-    max-width: 90vw;
+    width:500px;
     border-color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+}
+
+#searchbox:focus{
+    outline:none;
+}
+
+#Magnifier {
+    margin: 15px;
+}
+
+#Mic {
+    margin: 12px;
+}
+
+.buttons{
+    margin:20px 3px;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#altLang{
+    font-size: small;
 }
