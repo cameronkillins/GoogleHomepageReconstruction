@@ -7,7 +7,7 @@ body, html {
 
 body {
     display: grid;
-    grid-template: 60px 2fr  auto auto 3fr 45px 45px / 100%;
+    grid-template: 60px 2fr  auto auto 3fr 45px auto / 100%;
 }
 
 header, footer {
@@ -16,6 +16,12 @@ header, footer {
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
+}
+
+@media (max-width: 700px) {
+    #bottomFooter {
+        justify-content: space-around;
+    }
 }
 
 .linkblock {
@@ -34,7 +40,7 @@ a{
 header a, footer a {
     text-decoration-line: none;
     color: darkslategrey;
-    margin: 0px 10px;
+    margin: 15px 10px;
 }
 
 footer a{
@@ -87,6 +93,10 @@ footer a{
 }
 #search:focus-within {
     box-shadow: 0px 1px 4px 1px rgba(91,91,91,0.25);
+}
+
+svg{
+    overflow: visible;
 }
 
 #searchbox {
